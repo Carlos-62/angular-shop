@@ -19,6 +19,8 @@ export class ProductsService {
   getProducts(options: Options): Observable<ProductsResponse> {
     const { limit = 9, offset = 0, gender = '' } = options;
 
+    //prueba de commit
+
     return this.http
       .get<ProductsResponse>(`${baseUrl}/products`, {
         params: {
