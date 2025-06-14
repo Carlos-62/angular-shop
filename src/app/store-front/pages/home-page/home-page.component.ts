@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { rxResource } from '@angular/core/rxjs-interop';
-import { ProductCardComponent } from "../../../products/product-card/product-card.component";
+import { ProductCardComponent } from "../../../products/components/product-card/product-card.component";
 import { ProductsService } from '../../../products/services/products.service';
 
 
